@@ -83,7 +83,7 @@ const HeroSection = () => {
               <div className="mt-8 md:ml-2 flex flex-col gap-3">
                 <Link
                   href={
-                    "https://drive.google.com/file/d/1vjtWfqYGMIMK_rlBnmDEpKco9MiEaQss/view"
+                    "https://drive.google.com/file/d/1dwsRtnoBrynyFRl2Mxk5yXVfUHg9vZd0/view?usp=sharing"
                   }
                   target="_blank"
                   className="flex-1"
@@ -107,9 +107,9 @@ const HeroSection = () => {
                         </Button>
                       </Link>
                     </TooltipTrigger>
-                    <TooltipContent side="bottom">
+                    {/* <TooltipContent side="bottom">
                       <p>pls 🥹 🙏</p>
-                    </TooltipContent>
+                    </TooltipContent> */}
                   </Tooltip>
                   <Link
                     href={config.social.github}

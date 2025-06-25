@@ -534,7 +534,7 @@ const projects: Project[] = [
           <p className="font-mono mb-2 mt-8 text-center">
             This is not just a dashboard; it`s your financial companion,
             designed to help you take control of your money and achieve your
-            financial goals. Whether you are looking to save for a vacation, pay
+            financial goals. Whether you  re looking to save for a vacation, pay
             off debt, or simply keep track of your spending, this app has got
             you covered.
           </p>

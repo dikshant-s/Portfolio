@@ -605,7 +605,10 @@ const projects: Project[] = [
         PROJECT_SKILLS.zookeeper,
         PROJECT_SKILLS.streamlit,
       ],
-      backend: [PROJECT_SKILLS.machinelearning, PROJECT_SKILLS.opencv],
+      backend: [
+        PROJECT_SKILLS.machinelearning, 
+        PROJECT_SKILLS.opencv,
+      ],
     },
     get content() {
       return (
@@ -642,7 +645,7 @@ const projects: Project[] = [
     category: "Web Development",
     title: "Dikshant's Portfolio",
     src: "/assets/projects-screenshots/savinderpuriportfolio/01.png",
-    screenshots: ["01.png", "02.png", "03.png"],
+    screenshots: ["01.png",],
     live: "https://portfolio-h3wd.onrender.com",
     github: "https://github.com/dikshant-s/Portfolio",
     skills: {
@@ -658,13 +661,13 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono ">
-            Step into the creative universe of Dikshant Singh — a passionate
-            engineer blending the worlds of Web Development, AI, and
-            Human-Centered Design. 🚀💡 Explore his projects, research, and
-            innovations — from intuitive web apps to deep learning models that
-            think for themselves. Built with modern stacks like Next.js,
-            TypeScript, and Python, this portfolio is more than a showcase —
-            it’s a reflection of a journey fueled by curiosity and purpose.
+            Step into the digital world of Savinder Puri, the beloved DevOps
+            guru and Spiritual Alchemist, with this responsive portfolio
+            website. 🌐✨ Explore his inspiring journey, milestones, and
+            life-changing services blending tech and spirituality. Built with
+            modern tools like React and TypeScript, it’s a heartfelt tribute to
+            a mentor who transforms lives. 💻🕊️ Crafted with ❤️ by Abhijit
+            Zende! 🚀
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow

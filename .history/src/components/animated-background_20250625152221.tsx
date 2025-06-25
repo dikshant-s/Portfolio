@@ -568,7 +568,7 @@ const AnimatedBackground = () => {
             setSplineApp(app);
             bypassLoading();
           }}
-          scene="/assets/scene (6).splinecode"
+          scene="/assets/"
         />
       </Suspense>
     </>

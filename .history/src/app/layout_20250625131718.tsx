@@ -24,14 +24,21 @@ export const metadata: Metadata = {
     title: config.title,
     description: config.description.short,
     url: config.site,
+    images: [
+      {
+        url: config.ogImg,
+        width: 800,
+        height: 600,
+        alt: "Portfolio preview",
+      },
+    ],
     type: "website",
-    // images removed
   },
   twitter: {
     card: "summary_large_image",
     title: config.title,
     description: config.description.short,
-    // images removed
+    // images: [config.ogImg],
   },
   robots: {
     index: true,
@@ -52,13 +59,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={[archivoBlack.className].join(" ")}>
       <head>
-        {process.env.UMAMI_DOMAIN && process.env.UMAMI_SITE_ID && (
-          <Script
-            defer
-            src={process.env.UMAMI_DOMAIN}
-            data-website-id={process.env.UMAMI_SITE_ID}
-          />
-        )}
+        <Script
+          defer
+          src={process.env.UMAMI_DOMAIN}
+          data-website-id={process.env.UMAMI_SITE_ID}
+        ></Script>
         {/* <Analytics /> */}
       </head>
       <body>
